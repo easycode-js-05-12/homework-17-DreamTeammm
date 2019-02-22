@@ -15,7 +15,7 @@ const router = () => {
 	const component = routes[url] || routes['**'];
 	container.innerHTML = component.render();
 	component.afterRender();
-}
+};
 
 window.addEventListener('load', router);
 window.addEventListener('hashchange', router);
