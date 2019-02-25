@@ -4,10 +4,9 @@
 	"description": "",
 	"main": "app.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "npx webpack",
-		"start:dev": "webpack-dev-server --open",
-		"watch": "npx webpack --watch"
+		"start": "webpack-dev-server --open",
+		"watch": "npx webpack --watch",
+		"build": "npx webpack"
 	},
 	"keywords": [],
 	"author": "",

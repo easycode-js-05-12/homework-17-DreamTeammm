@@ -1,4 +1,11 @@
 export class Http {
+	/**
+	 * @description The function sends data to the server
+	 * @param url - uniform resource locator
+	 * @param data - data
+	 * @param options - handler
+	 * @return {Promise<any>}
+	 */
 	post(url, data, options) {
 		return new Promise((resolve, reject) => {
 			fetch(url, {
